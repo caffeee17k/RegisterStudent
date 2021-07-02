@@ -1,3 +1,4 @@
 - Baixar o projeto.
 - Rodar o comando yarn develop na pasta strapi-cms.
 - Rodar o comando yarn start na pasta register-student-mobile.
+- Como a parte de autenticação foi feito localmente com o strapi usando o BD MySQL, é necessário alterar no arquivo *"api.ts"* que está dentro da pasta *services* do projeto mobile, a "baseURL com o seu IP local para que funcione corretamente.
