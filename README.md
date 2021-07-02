@@ -1,1 +1,3 @@
-as
+- Baixar o projeto.
+- Rodar o comando yarn develop na pasta strapi-cms.
+- Rodar o comando yarn start na pasta register-student-mobile.
