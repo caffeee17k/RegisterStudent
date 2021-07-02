@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alunos",
+  "info": {
+    "name": "alunos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "data_de_nascimento": {
+      "type": "date"
+    },
+    "nacionalidade": {
+      "type": "string"
+    },
+    "naturalidade": {
+      "type": "string"
+    },
+    "sexo": {
+      "type": "string"
+    },
+    "nome_da_mae": {
+      "type": "string"
+    },
+    "data_conclusao_ensino_medio": {
+      "type": "date"
+    },
+    "rg": {
+      "type": "biginteger"
+    },
+    "orgao_expedidor_rg": {
+      "type": "string"
+    },
+    "uf_rg": {
+      "type": "string"
+    },
+    "data_expedicao_rg": {
+      "type": "date"
+    },
+    "cpf": {
+      "type": "biginteger"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "telefone": {
+      "type": "biginteger"
+    },
+    "codigo_do_banco": {
+      "type": "biginteger"
+    },
+    "numero_da_agencia": {
+      "type": "biginteger"
+    },
+    "tipo_de_conta": {
+      "type": "string"
+    },
+    "numero_da_conta": {
+      "type": "biginteger"
+    }
+  }
+}
